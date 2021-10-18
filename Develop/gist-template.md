@@ -148,8 +148,7 @@ N/A
 ### Greedy and Lazy Match
 - . will allow us to match any single character which could be a (letter, digit, symbol or whitespace) in a given text. we will use it when care to know if the the specific characters exist in the text and do not care about a  specific value. Hence, in the following example:
       - Let’s say we want to match any 9-character piece of text. The regex ......... will match any given word with 9-character. So the word squeezing and the word blackjack will be equally matched 
-  
-  - I have . laptops will match both  but not limited to the following:
+      - I have . laptops will match both  but not limited to the following:
         - I have 2 laptops
         - I have 9 laptops
 
@@ -161,7 +160,7 @@ In case we want to use the punctuation . we will use \.
       - The regex \bcat\b would match to the following:
           - cat in a black cat
     - but it wouldn't match cat to the following but not limited to the expression
-          -  catatonic
+          - catatonic
           - tomcat 
           - certificate 
   
@@ -176,4 +175,4 @@ N/A
 
 
 ## Author
-- Eleonore Caclard  | [Github](https://github.com/UofTL)
+- Eleonore Caclard [Github](https://github.com/UofTL)
